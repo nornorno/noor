@@ -1,0 +1,52 @@
+{
+  "name": "String Gen Session Bot",
+  "description": "A Telegram Bot to generate Telethon and Pyrogram String Session",
+  "logo": "https://telegra.ph/file/b8d877d44850c58363ad7.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
+    "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "repository": "الريبو بتاعك هنا --",
+  "env": {
+    "ENVIRONMENT": {
+      "description": "لا تغير شئ سيبها",
+      "required": true,
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "ضع هنا الايبي ايدي من هنا ‹ my.telegram.org ›",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "ضع هنا الايبي هاش من هنا ‹ my.telegram.org ›",
+      "required": true,
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "ضع هنا ايدي مالك البوت مثال ‹ 6352598131 ›",
+      "required": true,
+      "value": ""
+    },
+    "MONGO_DB_URI": {
+      "description": "ضع كود المونجو من هنا ‹ cloud.mongodb.com ›",
+      "required": true,
+      "value": ""
+    },
+    "MUST_JOIN": {
+      "description": "ضع هنا يوزر الاشتراك الاجباري مثال ‹ WX_PM ›",
+      "required": true,
+      "value": "WX_PM"
+    },
+    "BOT_TOKEN": {
+      "description": "ضع هنا توكن بوتك من هنا ‹ @botfather ›",
+      "required": true,
+      "value": ""
+    }
+  }
+}
